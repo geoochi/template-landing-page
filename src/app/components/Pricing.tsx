@@ -37,7 +37,7 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <Button variant={index === 1 ? "default" : "outline"}>Choose Plan</Button>
+              <Button variant={"outline"}>Choose Plan</Button>
             </div>
           ))}
         </div>
