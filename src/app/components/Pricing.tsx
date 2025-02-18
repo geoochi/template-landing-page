@@ -21,8 +21,8 @@ export default function Pricing() {
   ]
 
   return (
-    <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-white">
-      <div className="container px-4 md:px-6">
+    <section id="pricing" className="w-full bg-white">
+      <div className="max-w-7xl mx-auto py-12 md:py-24 lg:py-32 px-4 md:px-6">
         <h2 className="text-3xl font-bold text-center mb-12">Pricing Plans</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan, index) => (
